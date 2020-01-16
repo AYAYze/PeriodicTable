@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #435666
+}
+
+#str:focus{
+    outline: none
+}
+
+#str{
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #ff7473;
+    font-size : 50px;
+    background-color: #435666;
+    color: white;
+}
+
+#make{
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: #ff7473;
+    color:white;
+    font-size:50px;
+
+}
+
+#builtStr{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.num{
+    text-align: center;
+}
+.chr{
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+
+.period{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:black;
+    width: 200px;
+    margin-right: 10px;
+}
