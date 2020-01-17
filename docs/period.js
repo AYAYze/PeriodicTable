@@ -69,14 +69,16 @@ async function makeStr() {
         let b = value.char;
         let c = value.name;
         let d = value.color;
+        let nonBorder = '';
         console.log(b);
         if(b == undefined){
             a = ' '
             b = ' '
             c = ' '
+            nonBorder = 'border:none;width:30px';
         }
 
-        form += '<div class="period" style="background-color:' + d + '"><div class="num">' + a + '</div><div class="chr">' + b + '</div><div class="name">' + c + '</div></div>'
+        form += '<div class="period" style="background-color:' + d + ';'+nonBorder+'"><div class="num">' + a + '</div><div class="chr">' + b + '</div><div class="name">' + c + '</div></div>'
         document.getElementById('builtStr').innerHTML = form;
     })
     
