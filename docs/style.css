@@ -1,31 +1,38 @@
 body{
-    margin: 0;
+    margin: 0px;
     background-color: #435666
 }
 
 #str:focus{
     outline: none
 }
-
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 #str{
     font-family: 'Open Sans', sans-serif;
     border: 1px solid #ff7473;
     font-size : 50px;
     background-color: #435666;
     color: white;
+    border-radius: 10px;
 }
 
 #make{
     font-family: 'Open Sans', sans-serif;
     border: none;
+    border-radius: 10px;
     background-color: #ff7473;
     color:white;
     font-size:50px;
-
+    margin-left: 30px;
+    display: none;
 }
 
 #builtStr{
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     justify-content:center;
     font-family: 'Open Sans', sans-serif;
