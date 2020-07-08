@@ -3,7 +3,6 @@ body{
     /*background-color: #435666*/
     background-color:#ffd5d5;
     margin: 0px;
-    background-color: #435666
 }
 
 #str:focus{
@@ -15,13 +14,6 @@ body{
     justify-content: center;
     flex-wrap:wrap;
     margin-top:50px;
-}
-
-
-#main{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
 }
 
 #str{
@@ -88,7 +80,5 @@ body{
     margin-right: 10px;
     transition:box-shadow 0.5s;
     flex:0 1 auto;
-}
-
 }
 
