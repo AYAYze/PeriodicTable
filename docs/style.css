@@ -1,23 +1,61 @@
 body{
+<<<<<<< HEAD
+    margin: 0;
+    /*background-color: #435666*/
+    background-color:#ffd5d5;
+=======
     margin: 0px;
     background-color: #435666
+>>>>>>> db56b3ccc6b71c93e83d50b588aa79953c1b6b7a
 }
 
 #str:focus{
     outline: none
 }
+<<<<<<< HEAD
+
+
+#contents{
+    display:flex;
+    width:100vw;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+=======
 #main{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+>>>>>>> db56b3ccc6b71c93e83d50b588aa79953c1b6b7a
 #str{
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid #ff7473;
+    border:none;
+    border-radius: 10px;
+    width:90%;
+    justify-content: center;
+    transition:box-shadow 0.5s;
+    box-shadow: 10px 10px 30px rgba(255, 147, 147, 0.9),
+    -10px -10px 30px rgb(255, 219, 219),
+    inset 10px 10px 30px transparent,
+    inset -10px -10px 30px transparent;
     font-size : 50px;
-    background-color: #435666;
+    background-color: #ffc7c7;
     color: white;
     border-radius: 10px;
+}
+#str:focus{
+    box-shadow: 10px 10px 30px transparent,
+                -10px -10px 30px transparent,
+                inset 10px 10px 30px rgba(255, 147, 147, 0.9),
+                inset -10px -10px 30px rgb(255, 219, 219);
+}
+#peri{
+    display:flex;
+    justify-content: center;
+    width:90%;
 }
 
 #make{
@@ -50,12 +88,14 @@ body{
 }
 
 .period{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid white;
     border-radius: 10px;
     color:#435666;
     width: 200px;
     margin-right: 10px;
+<<<<<<< HEAD
+    transition:box-shadow 0.5s;
+    flex:0 1 auto;
 }
+=======
+}
+>>>>>>> db56b3ccc6b71c93e83d50b588aa79953c1b6b7a
