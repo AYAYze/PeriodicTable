@@ -13,5 +13,5 @@ app.get('/', (req,res)=>{
 });
 
 app.listen(PORT, ()=>{
-	console.log(`Open in ${PORT}`);
+	console.log(`Open ON ${PORT}`);
 });
